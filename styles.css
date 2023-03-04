@@ -1,0 +1,110 @@
+<body>
+<style type="text/css">
+
+* {/* for everything */
+  font-size:  12px;
+  font-family: Arial, Verdana, sans-serif;
+  color: black;
+  }
+
+ol {/* squares */
+  list-style-type: square}
+
+ul {  
+  /* givens */
+  margin: 6px;
+  padding: 5px;
+  /* box one height: 100px */
+  height: 100px;    
+  /* pertains to the unordered, first box */
+  border: 1px solid black;
+  background-color: #eee;}
+
+body {
+  width: 960px; /* the border for all text in the body */
+  /* width: 960px */
+  border: 1px solid black;}
+
+/* row#2 */
+  #row_2_box_1 {
+    /* givens */
+    margin: 6px;
+    padding: 5px;
+
+    float: left;
+    height: 200px;
+    /* box two width: 620px */
+    width: 620px;
+    /* givens */
+    background-color: #eee;
+    border: 1px solid black;}
+
+     .button { /* button */
+      float: right;
+      display: inline-block;
+      border: 1px solid black;}
+
+    .button:hover {/* hover color */
+      color: black;
+      background-color: white;}
+
+  #row_2_box_2 { 
+    float: left; 
+    height: 200px;
+    /* 100px is the gutter */
+    width: 292px; 
+    /*givens*/
+    
+    border: 1px solid black;
+    margin: 6px;
+    padding: 5px;}
+
+    .hidden_box {
+  /* display remains hidden */
+    display:  none;
+    position: relative;
+    float: right;
+    
+    width: 250px;
+    /* positioning */
+    text-align: center;
+    top: -80px;
+    left:-35px;
+    background-color: #eee;
+    border: 1px solid black;}
+/* end of row#2 */
+/* row #3 */
+   
+  #roddy_ricch{
+
+    float: left;
+    bottom: 20px;
+    margin: 6px;
+    padding: 5px;
+    height:  250px;
+    width: 930px;
+
+    border: 1px solid black;
+    background-color: #eee;}
+
+    td.description {
+      min-width: 450px;
+      max-width: 650px;
+      text-align: left;
+      padding: 5px;
+      margin: 6px;}
+/* end of row#3 */
+/* row#4 */
+
+footer {
+  height: 200px;
+  width: 930px;
+  /* givens */
+  margin: 6px;
+  padding: 5px;
+  border: 1px solid black;
+  
+  background-color: #eee;
+  overflow: auto; /* Enable scrolling */}
+
+</style>
